@@ -1,0 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+#nav a {
+    @apply text-blue-900 uppercase font-medium text-sm lg:text-lg ;
+  }
+
+@tailwind utilities;
