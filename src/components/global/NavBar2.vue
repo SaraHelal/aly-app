@@ -23,8 +23,7 @@
 					<!-- Secondary Navbar items -->
 					<div class="hidden md:flex items-center space-x-1 ">
                         <div class="rounded-full text-blue-800 border-2 border-blue-800 text-center  h-10 w-10"><i class="far fa-newspaper fa-lg mt-4"></i></div>
-                        <div class="bg-blue-800 text-white py-3 px-10 bg-blue-800 text-white rounded-full mr-6 flex relative"><p class="font-semibold tracking-wide">Login</p><span class="arrow"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>arrow-right</title><path d="M11 16.5v-3.5h-8v-6h8v-3.5l6.5 6.5-6.5 6.5z"></path></svg></span></div>
-                      
+                      <Button type = "login"/>
 						<!--
                         <a href="" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Log In</a>
 						<a href="" class="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">Sign Up</a>
@@ -63,7 +62,11 @@
 
 
 <script>
+import Button from './Button'
 export default {
-    name: 'NavBar2'
+    name: 'NavBar2',
+	components: {
+		Button,
+	}
 }
 </script>

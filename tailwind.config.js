@@ -14,7 +14,8 @@ module.exports = {
       padding:'2rem'
     },
     fontFamily:{ 
-      'Poppins':['Poppins','sans-serif']
+      'Poppins':['Poppins','sans-serif'],
+      'Lobster':['Lobster', 'cursive']
     }
     
   },

@@ -7,7 +7,6 @@
                 <div class="flex flex-col lg:w-3/5 justify-center items-center ">
                     <Button type = "add-review"/>
                     <Button type = "add-business"/>
-                    <Button type = "login"/>
 
                 </div>
             </div>

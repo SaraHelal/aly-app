@@ -1,11 +1,11 @@
 <template>
-    <div class="bg-gray-300 flex justify-between items-center space-x-1">
-        <div class="flex flex-col justify-between items-center">
-            <img :src="images[0]" class="pb-8">
-            <img :src="images[1]" class="">
+    <div class="bg-white flex justify-between items-center space-x-6 max-h-80 overflow-hidden">
+        <div class="flex flex-col justify-between items-center w-1/3 space-y-6">
+            <img :src="images[0]" class=" w-full ">
+            <img :src="images[1]" class="w-full">
         </div>
-        <div class="flex flex-col justify-between items-center">
-            <img :src="images[2]" class="pb-8">
+        <div class="flex flex-col justify-between items-center w-2/3 ">
+            <img :src="images[2]" class=" w-full h-auto">
         </div>
 
     </div>
