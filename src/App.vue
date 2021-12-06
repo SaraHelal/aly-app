@@ -4,17 +4,20 @@
     <NavBar2 />
   </div>-->
   <div class="container">
-  <NavBar2 />
-
+  <NavBar />
+  
   </div>
   
   <router-view/>
+  <Footer />
 </template>
 <script>
-import NavBar2 from './components/global/NavBar2'
+import NavBar from './components/global/NavBar'
+import Footer from './components/global/Footer'
 export default {
   components: {
-    NavBar2
+    NavBar,
+    Footer
   }
 }
 </script>

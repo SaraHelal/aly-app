@@ -1,24 +1,20 @@
 <template>
-<div class="flex flex-col justify-center items-center text-center my-8">
-    <div class="grid grid-cols-4 gap-6 relative text-xl font-semibold text-black">
+    <div class="grid grid-cols-4 gap-6 relative lg:text-xl md:text-base font-semibold text-black text-xs">
            <a href="#" v-for="(tab, index) in tabs" :key="index" @click="activeTab(index, $event)"  :class="`p-4 ${currentTab === index ? 'active' : ''}`" >
                <i :class="`fas ${tab.icon} fa-xl mr-2`"></i>
                {{tab.name}}
                </a>  
            
     </div>
-    <PopularTabView :catStats='catStats' />
-</div>
 </template>
 
 <script>
-import PopularTabView from '../components/PopularTabView'
 export default {
-    name:'PopularThisWeek',
+    name:'CatsTab',
     data(){
         return{
             currentTab: 0,
-            catStats : 'Resturant',
+            catType : 'Resturant',
             tabs:[
                 {
                     'name': 'Restuarant',
@@ -37,17 +33,20 @@ export default {
                     'icon': 'fa-spa'
                 },
 
-            ]
+            ],
+          
         }
     },
     components:{
-        PopularTabView
+        
     },
     methods:{
         activeTab(index, e){
             e.preventDefault();
             this.currentTab = index;
-            this.catStats = this.tabs[index].name
+            this.catType = this.tabs[index].name;
+            this.$emit('catType' , this.catType);
+
         }
     }
     

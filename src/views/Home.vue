@@ -1,11 +1,14 @@
 <template>
-  <div class="home container">
+  <div class="home container mb-16">
     <Search/>
     <ConnectHeader />
-    <ImagesTab />
     <SectionTitle title="Popular this week .." />
     <PopularThisWeek />
     <SectionTitle title="Review of the day .." />
+    <ReviewOfTheDay />
+    <SectionTitle title="Users of the day .." />
+    <UsersOfTheDay />
+
   </div>
 </template>
 
@@ -14,9 +17,11 @@
 // @ is an alias to /src
 import Search from '../components/Search'
 import ConnectHeader from '../components/ConnectHeader'
-import ImagesTab from '../components/ImagesTab'
 import SectionTitle from '../components/global/SectionTitle'
-import PopularThisWeek from '../components/PopularThisWeek'
+import PopularThisWeek from '../components/popular/PopularThisWeek'
+import ReviewOfTheDay from '../components/review/ReviewOfTheDay'
+import UsersOfTheDay from '../components/users/UsersOfTheDay'
+
 
 
 
@@ -26,9 +31,10 @@ export default {
   components: {
     Search,
     ConnectHeader,
-    ImagesTab,
     SectionTitle,
-    PopularThisWeek
+    PopularThisWeek,
+    ReviewOfTheDay,
+    UsersOfTheDay
   },
   props:['title']
 }
