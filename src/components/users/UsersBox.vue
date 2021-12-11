@@ -24,7 +24,7 @@
 
                 </div>
                 <div class="text-center flex justify-center items-center">
-                    <a  href="#" class="block px-8 py-1 my-6 md:px-6 md:py-1 flex items-center justify-center rounded-full border-4 uppercase bg-blue-800 border-blue-800 text-white">
+                    <a  href="#" class="block px-8 py-1 my-6 md:px-6 md:py-1 flex items-center justify-center rounded-full border-4 uppercase bg-blue-900 border-blue-900 text-white">
                         Follow
                     </a>
 

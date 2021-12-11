@@ -15,7 +15,10 @@ module.exports = {
     },
     fontFamily:{ 
       'Poppins':['Poppins','sans-serif'],
-      'Lobster':['Lobster', 'cursive']
+      'Lobster':['Lobster', 'cursive'],
+      'NunitoSans':['Nunito Sans', 'sans-serif']
+    
+
     }
     
   },

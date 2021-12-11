@@ -1,5 +1,5 @@
 <template>
-  <div class="home container mb-16">
+  <div class="home xl:container mb-16">
     <Search/>
     <ConnectHeader />
     <SectionTitle title="Popular this week .." />

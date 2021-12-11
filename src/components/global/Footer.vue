@@ -41,7 +41,7 @@
                     <i class="fab fa-linkedin-in fa-lg rounded-full border w-11 py-5 px-3 bg-gray-300 text-blue-700"></i>
                 </div>
                 <input type="text" placeholder="@Email" class="w-40 border rounded border-gray-400 p-1 my-3 text-center outline-none">
-                <a href="#" class="bg-blue-800 text-white p-2 rounded-full">Subscribe</a>
+                <a href="#" class="bg-blue-900 text-white px-4 py-2 rounded-full">Subscribe</a>
 
             </div>
         </div>
